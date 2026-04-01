@@ -1,0 +1,43 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    overflow: hidden;
+
+}
+
+.navbar .logo {
+    float: left;
+}
+
+.navbar .logo a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 14px 16px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.navbar .login {
+    float: right;
+}
+
+.navbar .login a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 14px 16px;
+    background-color: #04AA6D;
+    border-radius: 4px;
+    margin: 6px 10px;
+
+    .navbar .logo a:hover {
+        background-color: #555;
+    }
+
+    .navbar .login a:hover {
+        background-color: #028a56;
+    }
